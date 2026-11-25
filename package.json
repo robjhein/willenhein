@@ -1,0 +1,17 @@
+{
+  "name": "willenhein",
+  "private": true,
+  "description": "Small browser games by Will, Rob, and friends",
+  "workspaces": [
+    "games/*",
+    "shared/lib"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=city-platformer",
+    "build": "node scripts/build-site.mjs",
+    "build:game": "npm run build --workspace=city-platformer"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

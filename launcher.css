@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  min-height: 100vh;
+}
+
+.wrap {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+.tagline {
+  opacity: 0.85;
+  margin: 0 0 2rem;
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.game-list li {
+  background: #16213e;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.game-list a {
+  color: #7fdbff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.game-list a:hover {
+  text-decoration: underline;
+}
+
+.desc {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
